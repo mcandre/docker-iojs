@@ -1,5 +1,4 @@
 FROM mcandre/docker-nvm
 MAINTAINER Andrew Pennebaker <andrew.pennebaker@gmail.com>
-RUN bash -i -c 'nvm install iojs-v1.7' && \
-    echo 'nvm use iojs-v1.7' >> /root/.bashrc
-ENTRYPOINT [ "bash", "-i", "-c" ]
+ENV PATH $PATH:/root/.nvm/versions/io.js/v1.7.1/bin
+RUN bash -lic 'nvm install iojs-v1.7'
