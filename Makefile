@@ -1,4 +1,4 @@
-IMAGE=mcandre/docker-iojs:1.4
+IMAGE=mcandre/docker-iojs:1.3
 
 all: run
 
