@@ -8,11 +8,9 @@ https://registry.hub.docker.com/u/mcandre/docker-iojs/
 
 ```
 $ make
-docker run --rm mcandre/docker-iojs:1.5 'iojs --version'
-Now using io.js v1.5.1 (npm v2.7.0)
+docker run --rm mcandre/docker-iojs:1.5 iojs --version
 v1.5.1
-docker run --rm mcandre/docker-iojs:1.5 'npm --version'
-Now using io.js v1.5.1 (npm v2.7.0)
+docker run --rm mcandre/docker-iojs:1.5 npm --version
 2.7.0
 ```
 
