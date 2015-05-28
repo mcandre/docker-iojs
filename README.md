@@ -8,15 +8,9 @@ https://registry.hub.docker.com/u/mcandre/docker-iojs/
 
 ```
 $ make
-docker run --rm mcandre/docker-iojs:2.0 'iojs --version'
-bash: cannot set terminal process group (-1): Inappropriate ioctl for device
-bash: no job control in this shell
-Now using io.js v2.0.2 (npm v2.9.0)
+docker run --rm mcandre/docker-iojs:2.0 iojs --version
 v2.0.2
-docker run --rm mcandre/docker-iojs:2.0 'npm --version'
-bash: cannot set terminal process group (-1): Inappropriate ioctl for device
-bash: no job control in this shell
-Now using io.js v2.0.2 (npm v2.9.0)
+docker run --rm mcandre/docker-iojs:2.0 npm --version
 2.9.0
 ```
 
